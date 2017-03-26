@@ -44,6 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         "retina_detect": true
     });
+    /*
     var count_particles, stats, update;
     stats = new Stats;
     stats.setMode(0);
@@ -61,4 +62,5 @@ document.addEventListener("DOMContentLoaded", function () {
         requestAnimationFrame(update);
     };
     requestAnimationFrame(update);
+    */
 });

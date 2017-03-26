@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>NASA API Challenge with particles</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-sacle=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,17 +12,25 @@
 <div id="particles-js"></div> <!-- stats - count particles -->
 
 <!-- NASA img container -->
-<div id="newNASAphoto"></div>
+<div id="info" class="hide">
+    <ul style="visibility: visible">
+        <li data_title=""><h3></h3></li>
+        <li data_explanation=""></li>
+    </ul>
+</div>
 
-<button id="nextBtn" type="button">Next img</button>
+<!-- Buttons container -->
+<div id="button">
+    <button type="button">Info img</button>
+    <button type="button">Next img</button>
+</div>
 
 <!-- particles.js -->
-
 <script src="js/particles.js"></script>
 <script src="js/particles_app.js"></script>
 
 <!-- jQuery -->
-<!--<script src="js/jquery-3.1.1.min.js"></script>-->
+<script src="js/jquery-3.1.1.min.js"></script>
 
 <!-- NASA API -->
 <script src="js/NASA_app.js"></script>
