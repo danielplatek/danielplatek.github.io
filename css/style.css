@@ -79,7 +79,7 @@ canvas {
     color: #ffffff;
     font-size: 0.9rem;
     padding: 2px 7px;
-    border: dotted #ffffff 1px;
+    border: outset #ffffff 1px;
     text-decoration: none;
 }
 
