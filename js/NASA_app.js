@@ -50,10 +50,12 @@ document.addEventListener("DOMContentLoaded", function () {
         if (infoBox.classList.contains('hide') == true){
             infoBox.classList.remove('hide');
             infoBox.classList.add('show');
+            infoBtn.innerText = 'Close info';
 
         }else{
             infoBox.classList.remove('show');
             infoBox.classList.add('hide');
+            infoBtn.innerText = 'Info img';
         }
     })
 });
