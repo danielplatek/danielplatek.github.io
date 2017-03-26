@@ -1,4 +1,5 @@
 $(function() {
+
     var url = "https://api.nasa.gov/planetary/apod";
     var key = '&api_key=s7RAdgJ0dLEAiWBs9pCUNLPOSQzMeBdRunqrKI2c';
     var hd = '&hd=bool';
