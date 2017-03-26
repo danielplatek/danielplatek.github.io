@@ -20,11 +20,18 @@ $(function() {
     $.ajax({
         url: url + '?date=' +newDate+key,
     }).done(function (response) {
-        console.log(response);
+        // console.log(response);
         var $img = $('<img>',{'src': response.hdurl});
         $photo.append($img);
 
     }).fail(function (error) {
-        console.log('error');
+        // console.log(error);
     });
+
+    /* ---- Next random img ---- */
+    $('#nextBtn').on('click', function(){
+        console.log('click');
+
+    })
+
 });
