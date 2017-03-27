@@ -50,16 +50,16 @@ canvas {
 }
 
 #info.hide{
-     z-index: -2;
-     background-color: transparent;
-     color: transparent;
- }
+    z-index: -2;
+    background-color: transparent;
+    color: transparent;
+}
 
 /* ---- Buttons ---- */
 #button{
     position: absolute;
     text-align: center;
-    bottom: 20px;
+    bottom: 25px;
     left: 50%;
     margin-left: -70px;
 }
@@ -78,8 +78,8 @@ canvas {
     font-family: Arial;
     color: #ffffff;
     font-size: 0.9rem;
-    padding: 2px 7px;
-    border: outset #ffffff 1px;
+    padding: 4px 9px;
+    border: dotted #ffffff 1px;
     text-decoration: none;
 }
 

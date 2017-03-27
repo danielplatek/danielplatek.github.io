@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var nextBtn     = document.querySelectorAll('#button button')[1];
     var title       =  document.querySelector('li[data_title] h3');
     var explanation =  document.querySelector('li[data_explanation]');
-    
+
     function newBackgroundFromNASA (){
         /* ---- random number ---- */
         function getRandomInt( min, max ){
